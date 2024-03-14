@@ -1,0 +1,21 @@
+{
+	"tempHash": "005E23E4768F1803",
+	"tbluHash": "005B7E795C023A76",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"7a66f9ee74c5e2fe",
+				{
+					"AddProperty": [
+						"IsInUse",
+						{
+							"type": "SEntityTemplateReference",
+							"value": { "ref": "cc47c5dd450567f9", "externalScene": null, "exposedEntity": "IsInUse" }
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

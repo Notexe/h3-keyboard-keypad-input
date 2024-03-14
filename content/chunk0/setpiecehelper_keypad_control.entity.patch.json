@@ -1,0 +1,618 @@
+{
+	"tempHash": "009524671138BA37",
+	"tbluHash": "0062B06BC00EB42F",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"51c5b16643efe566",
+				{
+					"AddPropertyAliasConnection": [
+						"IsInUse",
+						{ "originalProperty": "m_rValueEntity", "originalEntity": "cafed556f0deab5d" }
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee51a03b554b4",
+				{
+					"parent": "cafe64719f4dfad8",
+					"name": "SimpleKeyEventHelper - NUMBER_7",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMBER_7" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 7 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 7 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed556f0deab5d",
+				{
+					"parent": "cafe21b7cf8696bd",
+					"name": "ValueBool_Changed IsInUse",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint",
+					"events": {
+						"OnFalse": {
+							"Disable": [
+								"cafef04dd44beea2",
+								"cafe2e3d4142e05d",
+								"cafe756ffe9c1ea9",
+								"cafe90443c2f35e3",
+								"cafebde21a6618e2",
+								"cafed1f17da50d58",
+								"cafed986420100e8",
+								"cafee51a03b554b4",
+								"cafeecf2a3bb5849",
+								"cafe66519e9e14eb",
+								"cafefde63d8079aa",
+								"cafe41e7abdb1306",
+								"cafe7b189695bf29",
+								"cafe65a7bb8e21be",
+								"cafe050562d886fb",
+								"cafea225cecdea1c",
+								"cafead49f20fefbc",
+								"cafeae6c7e45b93c",
+								"cafebf4a864d5c24",
+								"cafedcd7ce518ec1",
+								"cafeed380718f420",
+								"cafe14395eea0152",
+								"cafed2f2ade19543"
+							]
+						},
+						"OnTrue": {
+							"Enable": [
+								"cafef04dd44beea2",
+								"cafe2e3d4142e05d",
+								"cafe756ffe9c1ea9",
+								"cafe90443c2f35e3",
+								"cafebde21a6618e2",
+								"cafed1f17da50d58",
+								"cafed986420100e8",
+								"cafee51a03b554b4",
+								"cafeecf2a3bb5849",
+								"cafe66519e9e14eb",
+								"cafefde63d8079aa",
+								"cafe41e7abdb1306",
+								"cafe7b189695bf29",
+								"cafe65a7bb8e21be",
+								"cafe050562d886fb",
+								"cafea225cecdea1c",
+								"cafead49f20fefbc",
+								"cafeae6c7e45b93c",
+								"cafebf4a864d5c24",
+								"cafedcd7ce518ec1",
+								"cafeed380718f420",
+								"cafe14395eea0152",
+								"cafed2f2ade19543"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe21b7cf8696bd",
+				{
+					"parent": "51c5b16643efe566",
+					"name": "SimpleKeyEventHelper",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe756ffe9c1ea9",
+				{
+					"parent": "cafe64719f4dfad8",
+					"name": "SimpleKeyEventHelper - NUMBER_2",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMBER_2" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 2 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 2 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed1f17da50d58",
+				{
+					"parent": "cafe64719f4dfad8",
+					"name": "SimpleKeyEventHelper - NUMBER_5",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMBER_5" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 5 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 5 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed986420100e8",
+				{
+					"parent": "cafe64719f4dfad8",
+					"name": "SimpleKeyEventHelper - NUMBER_6",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMBER_6" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 6 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 6 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2e3d4142e05d",
+				{
+					"parent": "cafe64719f4dfad8",
+					"name": "SimpleKeyEventHelper - NUMBER_1",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMBER_1" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 1 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 1 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeecf2a3bb5849",
+				{
+					"parent": "cafe64719f4dfad8",
+					"name": "SimpleKeyEventHelper - NUMBER_8",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMBER_8" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 8 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 8 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe90443c2f35e3",
+				{
+					"parent": "cafe64719f4dfad8",
+					"name": "SimpleKeyEventHelper - NUMBER_3",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMBER_3" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 3 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 3 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebde21a6618e2",
+				{
+					"parent": "cafe64719f4dfad8",
+					"name": "SimpleKeyEventHelper - NUMBER_4",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMBER_4" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 4 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 4 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef04dd44beea2",
+				{
+					"parent": "cafe64719f4dfad8",
+					"name": "SimpleKeyEventHelper - NUMBER_0",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMBER_0" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 0 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 0 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe66519e9e14eb",
+				{
+					"parent": "cafe64719f4dfad8",
+					"name": "SimpleKeyEventHelper - NUMBER_9",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMBER_9" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 9 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 9 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe64719f4dfad8",
+				{
+					"parent": "cafe21b7cf8696bd",
+					"name": "Numbers",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe697a9f39b2f4",
+				{
+					"parent": "cafe21b7cf8696bd",
+					"name": "Numpad",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe65a7bb8e21be",
+				{
+					"parent": "cafe697a9f39b2f4",
+					"name": "SimpleKeyEventHelper - NUMPAD_3",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_3" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 3 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 3 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafead49f20fefbc",
+				{
+					"parent": "cafe697a9f39b2f4",
+					"name": "SimpleKeyEventHelper - NUMPAD_6",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_6" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 6 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 6 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebf4a864d5c24",
+				{
+					"parent": "cafe697a9f39b2f4",
+					"name": "SimpleKeyEventHelper - NUMPAD_8",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_8" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 8 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 8 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe050562d886fb",
+				{
+					"parent": "cafe697a9f39b2f4",
+					"name": "SimpleKeyEventHelper - NUMPAD_4",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_4" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 4 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 4 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7b189695bf29",
+				{
+					"parent": "cafe697a9f39b2f4",
+					"name": "SimpleKeyEventHelper - NUMPAD_2",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_2" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 2 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 2 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeae6c7e45b93c",
+				{
+					"parent": "cafe697a9f39b2f4",
+					"name": "SimpleKeyEventHelper - NUMPAD_7",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_7" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 7 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 7 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea225cecdea1c",
+				{
+					"parent": "cafe697a9f39b2f4",
+					"name": "SimpleKeyEventHelper - NUMPAD_5",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_5" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 5 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 5 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafedcd7ce518ec1",
+				{
+					"parent": "cafe697a9f39b2f4",
+					"name": "SimpleKeyEventHelper - NUMPAD_9",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_9" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 9 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 9 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefde63d8079aa",
+				{
+					"parent": "cafe697a9f39b2f4",
+					"name": "SimpleKeyEventHelper - NUMPAD_0",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_0" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 0 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 0 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe41e7abdb1306",
+				{
+					"parent": "cafe697a9f39b2f4",
+					"name": "SimpleKeyEventHelper - NUMPAD_1",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_1" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 1 } }] }
+					},
+					"outputCopying": {
+						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 1 } }] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeed380718f420",
+				{
+					"parent": "cafe21b7cf8696bd",
+					"name": "SimpleKeyEventHelper - ENTER",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "ENTER" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 11 } }] }
+					},
+					"outputCopying": { "Pressed": { "OK": ["51c5b16643efe566"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed2f2ade19543",
+				{
+					"parent": "cafe21b7cf8696bd",
+					"name": "SimpleKeyEventHelper - BACKSPACE",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "BACKSPACE" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 10 } }] }
+					},
+					"outputCopying": { "Pressed": { "Delete": ["51c5b16643efe566"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe14395eea0152",
+				{
+					"parent": "cafe21b7cf8696bd",
+					"name": "SimpleKeyEventHelper - NUMPAD_ENTER",
+					"factory": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/Templates/UI/Controls/simplekeyeventhelper.template?/SimpleKeyEventHelper.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_sModifierKeyName": { "type": "ZString", "value": "None" },
+						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_ENTER" }
+					},
+					"events": {
+						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 11 } }] }
+					},
+					"outputCopying": { "Pressed": { "OK": ["51c5b16643efe566"] } }
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
