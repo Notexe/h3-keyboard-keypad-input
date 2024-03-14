@@ -1,9 +1,9 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
+	"id": "Notex.KeyboardKeypadInput",
+	"name": "Keyboard Keypad Input",
+	"description": "You can now use your keyboard to enter in values into the keypads found in the Hitman 3 maps. ",
+	"authors": ["Notex"],
 	"frameworkVersion": "2.25.1"
 }
