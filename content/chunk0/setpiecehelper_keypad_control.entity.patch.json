@@ -27,7 +27,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMBER_7" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 7 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 7 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 7 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 7 } }] }
@@ -127,7 +130,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMBER_2" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 2 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 2 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 2 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 2 } }] }
@@ -149,7 +155,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMBER_5" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 5 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 5 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 5 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 5 } }] }
@@ -171,7 +180,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMBER_6" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 6 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 6 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 6 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 6 } }] }
@@ -193,7 +205,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMBER_1" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 1 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 1 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 1 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 1 } }] }
@@ -215,7 +230,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMBER_8" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 8 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 8 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 8 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 8 } }] }
@@ -237,7 +255,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMBER_3" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 3 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 3 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 3 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 3 } }] }
@@ -259,7 +280,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMBER_4" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 4 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 4 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 4 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 4 } }] }
@@ -281,7 +305,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMBER_0" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 0 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 0 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 11 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 0 } }] }
@@ -303,7 +330,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMBER_9" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 9 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 9 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 9 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 9 } }] }
@@ -347,7 +377,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_3" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 3 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 3 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 3 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 3 } }] }
@@ -369,7 +402,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_6" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 6 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 6 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 6 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 6 } }] }
@@ -391,7 +427,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_8" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 8 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 8 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 8 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 8 } }] }
@@ -413,7 +452,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_4" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 4 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 4 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 4 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 4 } }] }
@@ -435,7 +477,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_2" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 2 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 2 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 2 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 2 } }] }
@@ -457,7 +502,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_7" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 7 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 7 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 7 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 7 } }] }
@@ -479,7 +527,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_5" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 5 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 5 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 5 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 5 } }] }
@@ -501,7 +552,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_9" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 9 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 9 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 9 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 9 } }] }
@@ -523,7 +577,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_0" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 0 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 0 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 11 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 0 } }] }
@@ -545,7 +602,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_1" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 1 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 1 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 1 } }]
+						}
 					},
 					"outputCopying": {
 						"Pressed": { "Number": [{ "ref": "51c5b16643efe566", "value": { "type": "int32", "value": 1 } }] }
@@ -567,7 +627,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "ENTER" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 11 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 12 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 12 } }]
+						}
 					},
 					"outputCopying": { "Pressed": { "OK": ["51c5b16643efe566"] } }
 				}
@@ -587,7 +650,10 @@
 						"m_sKeyName": { "type": "ZString", "value": "BACKSPACE" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 10 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 10 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 10 } }]
+						}
 					},
 					"outputCopying": { "Pressed": { "Delete": ["51c5b16643efe566"] } }
 				}
@@ -607,9 +673,30 @@
 						"m_sKeyName": { "type": "ZString", "value": "NUMPAD_ENTER" }
 					},
 					"events": {
-						"Pressed": { "Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 11 } }] }
+						"Pressed": {
+							"Variant": [{ "ref": "faf463b7cc6c83f3", "value": { "type": "int32", "value": 12 } }],
+							"SetValue": [{ "ref": "cafe965ca2b973d4", "value": { "type": "int32", "value": 12 } }]
+						}
 					},
 					"outputCopying": { "Pressed": { "OK": ["51c5b16643efe566"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe965ca2b973d4",
+				{
+					"parent": "cafe21b7cf8696bd",
+					"name": "ValueInt_Set",
+					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_set.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_set.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": { "ref": "da9310d52011e105", "externalScene": null, "exposedEntity": "Number_Int" },
+							"postInit": true
+						}
+					}
 				}
 			]
 		}

@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/secret/short_cherish.sweetdialog?/short_cherish_001.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr23427_deadlyart_catalinagreets47tattooartist_47_002",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/secret/short_cherish_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/secret/short_cherish_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\A great moment. I cherish the memory to this day.",
+			"fr": "//(0,30)\\\\Un grand moment, oui. Je chéris le souvenir de ce jour.",
+			"it": "//(0,30)\\\\Un grande momento. Conservo ancora il ricordo.",
+			"de": "//(0,1.061572)\\\\Ein großartiger Moment,//(1.061572,3.729333)\\\\an den ich heute noch gerne zurückdenke.",
+			"es": "//(0,30)\\\\Fue un gran momento. Recuerdo con cariño aquel día.",
+			"ru": "//(0,30)\\\\Да, отличный момент. Я до сих пор его вспоминаю.",
+			"cn": "//(0,30)\\\\确实很感人。我至今还记得那一刻。",
+			"tc": "//(0,30)\\\\確實很感人。我至今還記得那一刻。",
+			"jp": "//(0,30)\\\\良いシーンでした。いまだに思い返すことがあります。"
+		}
+	}
+}

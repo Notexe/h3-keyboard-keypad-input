@@ -1,0 +1,168 @@
+{
+	"tempHash": "001FB9ECB2E7DCD7",
+	"tbluHash": "005EC15931E8B007",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"fd4740c483e124a8",
+				{ "AddInputCopyConnection": ["CheckSolution", "Poll", "cafed5e405256c23"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fd4740c483e124a8",
+				{
+					"AddPropertyAliasConnection": [
+						"Value0",
+						{ "originalProperty": "m_rValueInt", "originalEntity": "cafe1bd050c9c4d8" }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fd4740c483e124a8",
+				{
+					"AddPropertyAliasConnection": [
+						"Value1",
+						{ "originalProperty": "m_rValueInt", "originalEntity": "cafe6e0cff5e2534" }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fd4740c483e124a8",
+				{
+					"AddPropertyAliasConnection": [
+						"Value2",
+						{ "originalProperty": "m_rValueInt", "originalEntity": "cafeb6d98ebe4db7" }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fd4740c483e124a8",
+				{
+					"AddPropertyAliasConnection": [
+						"Value3",
+						{ "originalProperty": "m_rValueInt", "originalEntity": "cafec6deaf7826fe" }
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe70adf52e2842",
+				{
+					"parent": "fd4740c483e124a8",
+					"name": "ev089_hmreply",
+					"factory": "[assembly:/_pro/design/actor/spsystem.template?/dialogline.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dialogline.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pAudioEvent": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/secret/short_cherish.sweetdialog?/short_cherish_001.sweetdialogitem].pc_dialogevent",
+								"flag": "5F"
+							}
+						},
+						"m_rCharacter": { "type": "SEntityTemplateReference", "value": "10f15d34ec0c041d" }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe39152cd15d3b",
+				{
+					"parent": "fd4740c483e124a8",
+					"name": "ValueBool_Operation_04",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe1bd050c9c4d8", "cafe6e0cff5e2534", "cafeb6d98ebe4db7", "cafec6deaf7826fe"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed5e405256c23",
+				{
+					"parent": "fd4740c483e124a8",
+					"name": "ValueBool_Poll_04",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "cafe39152cd15d3b" } },
+					"events": { "PollTrue": { "Start": ["cafe70adf52e2842"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb6d98ebe4db7",
+				{
+					"parent": "fd4740c483e124a8",
+					"name": "DONTUSE_ValueInt_Evaluation_18",
+					"factory": "[modules:/zvalueint_evaluation.class].pc_entitytype",
+					"blueprint": "[modules:/zvalueint_evaluation.class].pc_entityblueprint",
+					"properties": {
+						"m_nCompareTo": { "type": "int32", "value": 1 },
+						"m_rValueInt": { "type": "SEntityTemplateReference", "value": null }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec6deaf7826fe",
+				{
+					"parent": "fd4740c483e124a8",
+					"name": "DONTUSE_ValueInt_Evaluation_19",
+					"factory": "[modules:/zvalueint_evaluation.class].pc_entitytype",
+					"blueprint": "[modules:/zvalueint_evaluation.class].pc_entityblueprint",
+					"properties": {
+						"m_nCompareTo": { "type": "int32", "value": 6 },
+						"m_rValueInt": { "type": "SEntityTemplateReference", "value": null }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1bd050c9c4d8",
+				{
+					"parent": "fd4740c483e124a8",
+					"name": "DONTUSE_ValueInt_Evaluation_16",
+					"factory": "[modules:/zvalueint_evaluation.class].pc_entitytype",
+					"blueprint": "[modules:/zvalueint_evaluation.class].pc_entityblueprint",
+					"properties": {
+						"m_nCompareTo": { "type": "int32", "value": 2 },
+						"m_rValueInt": { "type": "SEntityTemplateReference", "value": null }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6e0cff5e2534",
+				{
+					"parent": "fd4740c483e124a8",
+					"name": "DONTUSE_ValueInt_Evaluation_17",
+					"factory": "[modules:/zvalueint_evaluation.class].pc_entitytype",
+					"blueprint": "[modules:/zvalueint_evaluation.class].pc_entityblueprint",
+					"properties": {
+						"m_nCompareTo": { "type": "int32", "value": 0 },
+						"m_rValueInt": { "type": "SEntityTemplateReference", "value": null }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
