@@ -6,4 +6,4 @@ You can now use your keyboard to enter in values into the keypads found in the H
 
 ---
 
-`Notex.KeyboardKeypadInput` v0.2.0, by Notex. This README was automatically generated from the mod's manifest.
+`Notex.KeyboardKeypadInput` v1.0.0, by Notex. This README was automatically generated from the mod's manifest.
