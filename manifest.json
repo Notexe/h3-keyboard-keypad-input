@@ -5,6 +5,7 @@
 	"name": "Keyboard Keypad Input",
 	"description": "You can now use your keyboard to enter in values into the keypads found in the Hitman 3 maps.",
 	"contentFolders": ["content"],
+	"requirements": ["Notex.SimpleKeyEventHelper"],
 	"authors": ["Notex"],
 	"frameworkVersion": "2.33.7",
 	"updateCheck": "https://github.com/Notexe/h3-keyboard-keypad-input/releases/latest/download/updates.json"
